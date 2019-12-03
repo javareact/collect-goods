@@ -1,0 +1,37 @@
+{
+  "name": "测试专用采集淘宝",
+  "version": "1.1.5",
+  "manifest_version": 2,
+  "description": "自动采集淘宝商品",
+  "author": "Javareact",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "browser_action": {
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "js": [
+        "js/contentscript.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "js/jquery-1.7.2.min.js",
+      "js/background.js"
+    ]
+  }
+}
