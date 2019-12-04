@@ -1,8 +1,8 @@
 {
-  "name": "测试专用采集淘宝",
-  "version": "1.1.5",
+  "name": "挖券商城辅助工具",
+  "version": "1.0.1",
   "manifest_version": 2,
-  "description": "自动采集淘宝商品",
+  "description": "挖券自营商城增强版插件",
   "author": "Javareact",
   "icons": {
     "16": "images/icon16.png",
