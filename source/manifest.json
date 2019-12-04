@@ -18,8 +18,11 @@
         "http://*/*"
       ],
       "js": [
+        "js/jquery-1.7.2.min.js",
         "js/contentscript.js"
-      ]
+      ],
+      "all_frames": true,
+      "run_at": "document_end"
     }
   ],
   "permissions": [
