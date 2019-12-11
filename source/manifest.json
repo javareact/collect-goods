@@ -1,6 +1,6 @@
 {
   "name": "花卷云自营商城辅助工具",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "manifest_version": 2,
   "description": "花卷云自营商城辅助工具",
   "author": "http://www.dhsoft.cn/",
@@ -14,8 +14,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*/*",
-        "http://*/*"
+        "https://*/seller/goods/goods/*",
+        "http://*/seller/goods/goods/*"
       ],
       "js": [
         "js/jquery-1.7.2.min.js",
@@ -26,10 +26,8 @@
     }
   ],
   "permissions": [
-    "contextMenus",
-    "tabs",
-    "https://*/*",
-    "http://*/*"
+    "https://*/seller/goods/goods/*",
+    "http://*/seller/goods/goods/*"
   ],
   "background": {
     "scripts": [
