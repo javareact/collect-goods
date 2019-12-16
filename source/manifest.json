@@ -1,11 +1,13 @@
 {
-  "name": "花卷云自营商城辅助工具",
-  "version": "1.0.3",
+  "name": "花卷云辅助工具",
+  "short_name": "DhSoftTool",
+  "version": "1.0.5",
   "manifest_version": 2,
-  "description": "花卷云自营商城辅助工具",
+  "description": "花卷云自营商城辅助工具,协助用户快速填写商品信息.",
   "author": "http://www.dhsoft.cn/",
   "icons": {
     "16": "images/icon16.png",
+    "32": "images/icon32.png",
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
